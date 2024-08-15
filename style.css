@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+}
+
+.anchor{
+    padding: .5rem;
+    justify-content: right;
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+.options{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    height: 1rem;
+    
+}
+
+.search-bar{
+    width: 25rem;
+    height: 1.5rem;
+    border-radius: 5%;
+}
+
+header{
+    background-color: gold;
+    height: 5.5rem;
+}
+.logo{
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    font-size: larger;
+    /* background-color: green; */
+}
+
+a{
+    text-decoration: none;
+}
+
+/* .images{
+    margin-top: 1.2rem;
+} */
+
+.animation{
+    height: 20rem;
+    width: 200vh;
+    animation-name: picture;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes picture{
+    0%{
+        background-image: url(/image/ani5.webp);
+    }
+    25%{
+        background-image: url(/image/ani.webp);
+    }
+    50%{
+        background-image: url(/image/ani2.webp);
+    }
+    75%{
+        background-image: url(/image/ani3.webp);
+    }
+    100%{
+        background-image: url(/image/ani4.webp);
+    }
+}
+
+.items{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.item{
+    border: .2rem dotted;
+    width: 300px;
+    height: 250px;
+    margin: .5rem;
+}
+
+.image{
+    width: 290px;
+    height: 230px;
+}
+
+h3{
+    text-align: center;
+}
