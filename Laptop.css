@@ -17,7 +17,8 @@
     display: flex;
     gap: 1rem;
     justify-content: center;
-    height: 1rem;   
+    height: 1rem;
+    
 }
 
 /* it is used for arrangement of search bar  */
@@ -46,38 +47,12 @@ a{
     text-decoration: none;
 }
 
-/* it is used for giving animation of this webpage  */
-.animation{
-    height: 20rem;
-    width: 198vh;
-    animation-name: picture;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
+.heading-product{
+    text-align: center;
 }
 
-@keyframes picture{
-    0%{
-        background-image: url(/image/ani5.webp);
-    }
-    25%{
-        background-image: url(/image/ani.webp);
-    }
-    50%{
-        background-image: url(/image/ani2.webp);
-    }
-    75%{
-        background-image: url(/image/ani3.webp);
-    }
-    100%{
-        background-image: url(/image/ani4.webp);
-    }
-}
-
-/* it is used for diving display into multiple grid  */
-.items{
-    overflow-x: scroll;
-    display: grid;
-    grid-template-columns: auto auto auto auto auto;
+.brand-heading{
+    padding-left: .5rem;
 }
 
 /* it is used for single item attribute controlling  */
@@ -86,12 +61,19 @@ a{
     width: 240px;
     height: 200px;
     margin: .5rem;
+    text-align: center;
+}
+
+.all-phone{
+    overflow-x: scroll;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
 }
 
 /* it is used for giving image height and width  */
 .image{
     width: 240px;
-    height: 170px;
+    height: 150px;
 }
 
 .item-name{
@@ -120,8 +102,8 @@ footer{
 
 .social-media{
     display: flex;
-    justify-content: center;
     gap: 1rem;
+    justify-content: center;
 }
 
 /* it is used for various display adjust  */
@@ -134,14 +116,14 @@ footer{
     .item{
         border: .2rem dotted;
         width: 200px;
-        height: 150px;
+        height: 160px;
         margin: .5rem;
     }
 
     /* it is used for giving image height and width  */
     .image{
         width: 200px;
-        height: 120px;
+        height: 110px;
     }
 }
 
@@ -165,6 +147,6 @@ footer{
     /* it is used for giving image height and width  */
     .image{
         width: 200px;
-        height: 120px;
+        height: 110px;
     }
 }
